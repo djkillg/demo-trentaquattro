@@ -205,6 +205,9 @@ p { margin: 0 0 1em; }
 /* Salle : image + carte qui se chevauchent */
 .split { display: grid; grid-template-columns: 1.1fr 0.9fr; align-items: center; }
 .split-media img { border-radius: var(--radius-l); aspect-ratio: 4 / 3; object-fit: cover; }
+.split-reverse { grid-template-columns: 0.9fr 1.1fr; }
+.split-reverse .split-media { order: 2; }
+.split-reverse .split-card { margin: 0 -4rem 0 0; z-index: 1; }
 
 /* Galerie de la salle */
 .gallery {
@@ -305,6 +308,9 @@ p { margin: 0 0 1em; }
   .offers, .signature, .reviews, .split, .infos, .site-footer .wrap { grid-template-columns: 1fr; }
   .offer:first-child { grid-row: auto; min-height: 380px; }
   .split-card { margin: -3rem 1rem 0; }
+  .split-reverse { grid-template-columns: 1fr; }
+  .split-reverse .split-media { order: 0; }
+  .split-reverse .split-card { margin: -3rem 1rem 0; }
   .signature-photo .tag { right: 1rem; }
   .gallery { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 150px; }
   .menu-grid, .steps { grid-template-columns: 1fr; }
