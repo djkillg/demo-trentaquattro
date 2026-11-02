@@ -130,6 +130,23 @@ function initQuoteForm() {
   });
 }
 
+// Vidéos d'ambiance : lecture muette seulement à l'écran, jamais si l'utilisateur limite les animations.
+function initAmbientVideos() {
+  const videos = document.querySelectorAll("video[data-autoplay]");
+  if (!videos.length) return;
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches || !("IntersectionObserver" in window)) {
+    videos.forEach((video) => { video.controls = true; });
+    return;
+  }
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(({ target, isIntersecting }) => {
+      if (!isIntersecting) { target.pause(); return; }
+      target.play().catch(() => { target.controls = true; });
+    });
+  }, { threshold: 0.35 });
+  videos.forEach((video) => observer.observe(video));
+}
+
 function initYear() {
   document.querySelectorAll("[data-year]").forEach((el) => {
     el.textContent = String(new Date().getFullYear());
@@ -141,4 +158,5 @@ initStatus();
 initReveal();
 initMenuChips();
 initQuoteForm();
+initAmbientVideos();
 initYear();
