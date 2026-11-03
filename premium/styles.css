@@ -433,3 +433,11 @@ body[data-nav-open="true"] .hd .brand img { filter: none; }
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
   .reveal { opacity: 1; transform: none; }
 }
+
+/* Carte en chinois : polices système CJK derrière les polices latines, sans italique simulé */
+:lang(zh) {
+  --serif: "Instrument Serif", "Songti SC", "Noto Serif SC", "STSong", serif;
+  --sans: "Jost", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+}
+:lang(zh) h1, :lang(zh) h2, :lang(zh) h3 { line-height: 1.25; letter-spacing: 0; }
+:lang(zh) em { font-style: normal; }
