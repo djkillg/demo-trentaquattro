@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://www.trentaquattro.be/</loc><lastmod>2026-11-03</lastmod></url>
+  <url><loc>https://www.trentaquattro.be/commander.html</loc><lastmod>2026-11-03</lastmod></url>
+  <url><loc>https://www.trentaquattro.be/salle-fetes-traiteur.html</loc><lastmod>2026-11-03</lastmod></url>
+  <url><loc>https://www.trentaquattro.be/contact.html</loc><lastmod>2026-11-03</lastmod></url>
+  <url>
+    <loc>https://www.trentaquattro.be/carte.html</loc><lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/menukaart.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/menu-en.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/menu-it.html"/>
+  </url>
+  <url>
+    <loc>https://www.trentaquattro.be/menukaart.html</loc><lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/menukaart.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/menu-en.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/menu-it.html"/>
+  </url>
+  <url>
+    <loc>https://www.trentaquattro.be/menu-en.html</loc><lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/menukaart.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/menu-en.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/menu-it.html"/>
+  </url>
+  <url>
+    <loc>https://www.trentaquattro.be/menu-it.html</loc><lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/menukaart.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/menu-en.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/menu-it.html"/>
+  </url>
+</urlset>
