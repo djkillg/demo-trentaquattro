@@ -1,61 +1,443 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url><loc>https://www.trentaquattro.be/</loc><lastmod>2026-11-03</lastmod></url>
-  <url><loc>https://www.trentaquattro.be/commander.html</loc><lastmod>2026-11-03</lastmod></url>
-  <url><loc>https://www.trentaquattro.be/salle-fetes-traiteur.html</loc><lastmod>2026-11-03</lastmod></url>
-  <url><loc>https://www.trentaquattro.be/contact.html</loc><lastmod>2026-11-03</lastmod></url>
+  <url>
+    <loc>https://www.trentaquattro.be/</loc><lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/"/>
+  </url>
+  <url>
+    <loc>https://www.trentaquattro.be/nl/</loc><lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/"/>
+  </url>
+  <url>
+    <loc>https://www.trentaquattro.be/en/</loc><lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/"/>
+  </url>
+  <url>
+    <loc>https://www.trentaquattro.be/de/</loc><lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/"/>
+  </url>
+  <url>
+    <loc>https://www.trentaquattro.be/it/</loc><lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/"/>
+  </url>
+  <url>
+    <loc>https://www.trentaquattro.be/es/</loc><lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/"/>
+  </url>
+  <url>
+    <loc>https://www.trentaquattro.be/pt/</loc><lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/"/>
+  </url>
+  <url>
+    <loc>https://www.trentaquattro.be/zh/</loc><lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/"/>
+  </url>
+  <url>
+    <loc>https://www.trentaquattro.be/commander.html</loc><lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/commander.html"/>
+  </url>
+  <url>
+    <loc>https://www.trentaquattro.be/nl/commander.html</loc><lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/commander.html"/>
+  </url>
+  <url>
+    <loc>https://www.trentaquattro.be/en/commander.html</loc><lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/commander.html"/>
+  </url>
+  <url>
+    <loc>https://www.trentaquattro.be/de/commander.html</loc><lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/commander.html"/>
+  </url>
+  <url>
+    <loc>https://www.trentaquattro.be/it/commander.html</loc><lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/commander.html"/>
+  </url>
+  <url>
+    <loc>https://www.trentaquattro.be/es/commander.html</loc><lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/commander.html"/>
+  </url>
+  <url>
+    <loc>https://www.trentaquattro.be/pt/commander.html</loc><lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/commander.html"/>
+  </url>
+  <url>
+    <loc>https://www.trentaquattro.be/zh/commander.html</loc><lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/commander.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/commander.html"/>
+  </url>
+  <url>
+    <loc>https://www.trentaquattro.be/salle-fetes-traiteur.html</loc><lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/salle-fetes-traiteur.html"/>
+  </url>
+  <url>
+    <loc>https://www.trentaquattro.be/nl/salle-fetes-traiteur.html</loc><lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/salle-fetes-traiteur.html"/>
+  </url>
+  <url>
+    <loc>https://www.trentaquattro.be/en/salle-fetes-traiteur.html</loc><lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/salle-fetes-traiteur.html"/>
+  </url>
+  <url>
+    <loc>https://www.trentaquattro.be/de/salle-fetes-traiteur.html</loc><lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/salle-fetes-traiteur.html"/>
+  </url>
+  <url>
+    <loc>https://www.trentaquattro.be/it/salle-fetes-traiteur.html</loc><lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/salle-fetes-traiteur.html"/>
+  </url>
+  <url>
+    <loc>https://www.trentaquattro.be/es/salle-fetes-traiteur.html</loc><lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/salle-fetes-traiteur.html"/>
+  </url>
+  <url>
+    <loc>https://www.trentaquattro.be/pt/salle-fetes-traiteur.html</loc><lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/salle-fetes-traiteur.html"/>
+  </url>
+  <url>
+    <loc>https://www.trentaquattro.be/zh/salle-fetes-traiteur.html</loc><lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/salle-fetes-traiteur.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/salle-fetes-traiteur.html"/>
+  </url>
+  <url>
+    <loc>https://www.trentaquattro.be/contact.html</loc><lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/contact.html"/>
+  </url>
+  <url>
+    <loc>https://www.trentaquattro.be/nl/contact.html</loc><lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/contact.html"/>
+  </url>
+  <url>
+    <loc>https://www.trentaquattro.be/en/contact.html</loc><lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/contact.html"/>
+  </url>
+  <url>
+    <loc>https://www.trentaquattro.be/de/contact.html</loc><lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/contact.html"/>
+  </url>
+  <url>
+    <loc>https://www.trentaquattro.be/it/contact.html</loc><lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/contact.html"/>
+  </url>
+  <url>
+    <loc>https://www.trentaquattro.be/es/contact.html</loc><lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/contact.html"/>
+  </url>
+  <url>
+    <loc>https://www.trentaquattro.be/pt/contact.html</loc><lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/contact.html"/>
+  </url>
+  <url>
+    <loc>https://www.trentaquattro.be/zh/contact.html</loc><lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/contact.html"/>
+  </url>
   <url>
     <loc>https://www.trentaquattro.be/carte.html</loc><lastmod>2026-11-03</lastmod>
     <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/carte.html"/>
-    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/menukaart.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/menu-en.html"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/menu-it.html"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/menu-es.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/menu-zh.html"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/carte.html"/>
   </url>
   <url>
-    <loc>https://www.trentaquattro.be/menukaart.html</loc><lastmod>2026-11-03</lastmod>
+    <loc>https://www.trentaquattro.be/nl/carte.html</loc><lastmod>2026-11-03</lastmod>
     <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/carte.html"/>
-    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/menukaart.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/menu-en.html"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/menu-it.html"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/menu-es.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/menu-zh.html"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/carte.html"/>
   </url>
   <url>
-    <loc>https://www.trentaquattro.be/menu-en.html</loc><lastmod>2026-11-03</lastmod>
+    <loc>https://www.trentaquattro.be/en/carte.html</loc><lastmod>2026-11-03</lastmod>
     <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/carte.html"/>
-    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/menukaart.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/menu-en.html"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/menu-it.html"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/menu-es.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/menu-zh.html"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/carte.html"/>
   </url>
   <url>
-    <loc>https://www.trentaquattro.be/menu-it.html</loc><lastmod>2026-11-03</lastmod>
+    <loc>https://www.trentaquattro.be/de/carte.html</loc><lastmod>2026-11-03</lastmod>
     <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/carte.html"/>
-    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/menukaart.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/menu-en.html"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/menu-it.html"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/menu-es.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/menu-zh.html"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/carte.html"/>
   </url>
   <url>
-    <loc>https://www.trentaquattro.be/menu-es.html</loc><lastmod>2026-11-03</lastmod>
+    <loc>https://www.trentaquattro.be/it/carte.html</loc><lastmod>2026-11-03</lastmod>
     <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/carte.html"/>
-    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/menukaart.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/menu-en.html"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/menu-it.html"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/menu-es.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/menu-zh.html"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/carte.html"/>
   </url>
   <url>
-    <loc>https://www.trentaquattro.be/menu-zh.html</loc><lastmod>2026-11-03</lastmod>
+    <loc>https://www.trentaquattro.be/es/carte.html</loc><lastmod>2026-11-03</lastmod>
     <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/carte.html"/>
-    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/menukaart.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/menu-en.html"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/menu-it.html"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/menu-es.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/menu-zh.html"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/carte.html"/>
+  </url>
+  <url>
+    <loc>https://www.trentaquattro.be/pt/carte.html</loc><lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/carte.html"/>
+  </url>
+  <url>
+    <loc>https://www.trentaquattro.be/zh/carte.html</loc><lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.trentaquattro.be/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.trentaquattro.be/nl/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.trentaquattro.be/en/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.trentaquattro.be/de/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.trentaquattro.be/it/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.trentaquattro.be/es/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.trentaquattro.be/pt/carte.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.trentaquattro.be/zh/carte.html"/>
   </url>
 </urlset>

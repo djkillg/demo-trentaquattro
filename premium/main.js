@@ -11,18 +11,99 @@ const KITCHEN_HOURS = [
   [[1080, 1320]],             // samedi : soir uniquement
 ];
 
-const formatTime = (minutes) =>
-  `${Math.floor(minutes / 60)}h${String(minutes % 60).padStart(2, "0")}`;
+// Messages de l'interface dans les six langues du site, choisis d'après <html lang>
+const MESSAGES = {
+  fr: {
+    open: (t) => `Cuisine ouverte jusqu'à ${t}`, opensAt: (t) => `Fermé · ouvre à ${t}`,
+    closedToday: "Fermé pour aujourd'hui · réservez pour demain",
+    date: "Choisissez une date à venir.", guests: "Entre 10 et 100 personnes.",
+    occasion: "Indiquez le type d'événement.", name: "Indiquez votre nom.",
+    phone: "Numéro de téléphone invalide.", email: "Adresse e-mail invalide.",
+    consent: "Cochez la case pour accepter de recevoir la lettre.",
+    welcome: "Benvenuto in famiglia ! (Maquette : aucune inscription réelle.)",
+  },
+  nl: {
+    open: (t) => `Keuken open tot ${t}`, opensAt: (t) => `Gesloten · opent om ${t}`,
+    closedToday: "Vandaag gesloten · reserveer voor morgen",
+    date: "Kies een datum in de toekomst.", guests: "Tussen 10 en 100 personen.",
+    occasion: "Kies het soort evenement.", name: "Vul uw naam in.",
+    phone: "Ongeldig telefoonnummer.", email: "Ongeldig e-mailadres.",
+    consent: "Vink het vakje aan om de nieuwsbrief te ontvangen.",
+    welcome: "Benvenuto in famiglia! (Demo: er wordt niets verzonden.)",
+  },
+  en: {
+    open: (t) => `Kitchen open until ${t}`, opensAt: (t) => `Closed · opens at ${t}`,
+    closedToday: "Closed for today · book for tomorrow",
+    date: "Choose a date in the future.", guests: "Between 10 and 100 guests.",
+    occasion: "Choose the type of event.", name: "Please enter your name.",
+    phone: "Invalid phone number.", email: "Invalid e-mail address.",
+    consent: "Tick the box to agree to receive the newsletter.",
+    welcome: "Benvenuto in famiglia! (Demo: nothing is actually sent.)",
+  },
+  it: {
+    open: (t) => `Cucina aperta fino alle ${t}`, opensAt: (t) => `Chiuso · apre alle ${t}`,
+    closedToday: "Chiuso per oggi · prenota per domani",
+    date: "Scegli una data futura.", guests: "Tra 10 e 100 persone.",
+    occasion: "Indica il tipo di evento.", name: "Indica il tuo nome.",
+    phone: "Numero di telefono non valido.", email: "Indirizzo e-mail non valido.",
+    consent: "Spunta la casella per ricevere la newsletter.",
+    welcome: "Benvenuto in famiglia! (Demo: nessuna iscrizione reale.)",
+  },
+  de: {
+    open: (t) => `Küche geöffnet bis ${t} Uhr`, opensAt: (t) => `Geschlossen · öffnet um ${t} Uhr`,
+    closedToday: "Heute geschlossen · für morgen reservieren",
+    date: "Wählen Sie ein Datum in der Zukunft.", guests: "Zwischen 10 und 100 Personen.",
+    occasion: "Wählen Sie die Art der Veranstaltung.", name: "Bitte geben Sie Ihren Namen ein.",
+    phone: "Ungültige Telefonnummer.", email: "Ungültige E-Mail-Adresse.",
+    consent: "Kreuzen Sie das Kästchen an, um den Newsletter zu erhalten.",
+    welcome: "Benvenuto in famiglia! (Demo: Es wird nichts gesendet.)",
+  },
+  pt: {
+    open: (t) => `Cozinha aberta até às ${t}`, opensAt: (t) => `Fechado · abre às ${t}`,
+    closedToday: "Fechado hoje · reserve para amanhã",
+    date: "Escolha uma data futura.", guests: "Entre 10 e 100 pessoas.",
+    occasion: "Indique o tipo de evento.", name: "Indique o seu nome.",
+    phone: "Número de telefone inválido.", email: "Endereço de e-mail inválido.",
+    consent: "Assinale a caixa para aceitar receber a newsletter.",
+    welcome: "Benvenuto in famiglia! (Demo: nada é enviado.)",
+  },
+  es: {
+    open: (t) => `Cocina abierta hasta las ${t}`, opensAt: (t) => `Cerrado · abre a las ${t}`,
+    closedToday: "Cerrado por hoy · reserve para mañana",
+    date: "Elija una fecha futura.", guests: "Entre 10 y 100 personas.",
+    occasion: "Indique el tipo de evento.", name: "Indique su nombre.",
+    phone: "Número de teléfono no válido.", email: "Dirección de correo no válida.",
+    consent: "Marque la casilla para aceptar recibir el boletín.",
+    welcome: "¡Benvenuto in famiglia! (Demo: no se envía nada.)",
+  },
+  zh: {
+    open: (t) => `厨房营业至 ${t}`, opensAt: (t) => `休息中 · ${t} 开门`,
+    closedToday: "今日已打烊 · 欢迎预订明天",
+    date: "请选择未来的日期。", guests: "人数需在 10 至 100 人之间。",
+    occasion: "请选择活动类型。", name: "请填写您的姓名。",
+    phone: "电话号码无效。", email: "电子邮箱地址无效。",
+    consent: "请勾选同意接收会员通讯。",
+    welcome: "Benvenuto in famiglia！（演示版：不会真正提交。）",
+  },
+};
+const LANG = document.documentElement.lang.slice(0, 2);
+const T = MESSAGES[LANG] || MESSAGES.fr;
+
+const formatTime = (minutes) => {
+  const hours = Math.floor(minutes / 60);
+  const mins = String(minutes % 60).padStart(2, "0");
+  return LANG === "fr" ? `${hours}h${mins}` : `${hours}:${mins}`;
+};
 
 function getKitchenStatus(now = new Date()) {
   const day = now.getDay();
   const minutes = now.getHours() * 60 + now.getMinutes();
   const current = KITCHEN_HOURS[day].find(([open, close]) => minutes >= open && minutes < close);
-  if (current) return { isOpen: true, label: `Cuisine ouverte jusqu'à ${formatTime(current[1])}` };
+  if (current) return { isOpen: true, label: T.open(formatTime(current[1])) };
 
   const laterToday = KITCHEN_HOURS[day].find(([open]) => open > minutes);
-  if (laterToday) return { isOpen: false, label: `Fermé · ouvre à ${formatTime(laterToday[0])}` };
-  return { isOpen: false, label: "Fermé pour aujourd'hui · réservez pour demain" };
+  if (laterToday) return { isOpen: false, label: T.opensAt(formatTime(laterToday[0])) };
+  return { isOpen: false, label: T.closedToday };
 }
 
 function initStatus() {
@@ -119,12 +200,12 @@ function initMenuChips() {
 }
 
 const QUOTE_RULES = {
-  date: (v) => (v && new Date(v) > new Date() ? "" : "Choisissez une date à venir."),
-  guests: (v) => (Number(v) >= 10 && Number(v) <= 100 ? "" : "Entre 10 et 100 personnes."),
-  occasion: (v) => (v ? "" : "Indiquez le type d'événement."),
-  name: (v) => (v.trim().length >= 2 ? "" : "Indiquez votre nom."),
-  phone: (v) => (/^[+0-9 ./-]{9,}$/.test(v.trim()) ? "" : "Numéro de téléphone invalide."),
-  email: (v) => (/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.trim()) ? "" : "Adresse e-mail invalide."),
+  date: (v) => (v && new Date(v) > new Date() ? "" : T.date),
+  guests: (v) => (Number(v) >= 10 && Number(v) <= 100 ? "" : T.guests),
+  occasion: (v) => (v ? "" : T.occasion),
+  name: (v) => (v.trim().length >= 2 ? "" : T.name),
+  phone: (v) => (/^[+0-9 ./-]{9,}$/.test(v.trim()) ? "" : T.phone),
+  email: (v) => (/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.trim()) ? "" : T.email),
 };
 
 function validateField(form, name) {
@@ -182,15 +263,15 @@ function initSignup() {
     event.preventDefault();
     const email = form.elements.email.value.trim();
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-      message.textContent = "Adresse e-mail invalide.";
+      message.textContent = T.email;
       form.elements.email.focus();
       return;
     }
     if (!form.elements.consent.checked) {
-      message.textContent = "Cochez la case pour accepter de recevoir la lettre.";
+      message.textContent = T.consent;
       return;
     }
-    message.textContent = "Benvenuto in famiglia ! (Maquette : aucune inscription réelle.)";
+    message.textContent = T.welcome;
     form.reset();
   });
 }
